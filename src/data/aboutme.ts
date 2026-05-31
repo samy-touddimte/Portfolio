@@ -28,7 +28,7 @@ export const aboutMe: AboutMe = {
   imageUrl: "",
   githubUsername: "samy-touddimte",
   linkedinUsername: "samytouddimte",
-  cvUrl: "/cv.pdf",
+  cvUrl: "https://github.com/samy-touddimte/cv/raw/main/cv.pdf",
   funDescription: "",
   secretDescription: "Merci de votre visite. Si mon profil retient votre attention, n'hésitez pas à me contacter.",
   altName: "ÉTUDIANT AU PROFIL SCIENTIFIQUE ET INFORMATIQUE",
