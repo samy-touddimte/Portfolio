@@ -1,4 +1,4 @@
-# Portfolio de Samy Touddimte
+# Portfolio
 
 Bienvenue sur le code source de mon site web personnel et portfolio. Ce site servira a présenter mon parcours, mes compétences, mon expérience et mes projets.
 
