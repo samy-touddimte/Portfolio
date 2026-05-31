@@ -1,0 +1,35 @@
+export interface AboutMe {
+  name: string;
+  title: string;
+  institution: string;
+  description: string;
+  email: string;
+  imageUrl?: string;
+  blogUrl?: string;
+  cvUrl?: string;
+  googleScholarUrl?: string;
+  twitterUsername?: string;
+  githubUsername?: string;
+  linkedinUsername?: string;
+  funDescription?: string;
+  secretDescription?: string;
+  altName?: string;
+  institutionUrl?: string;
+  phone?: string;
+}
+
+export const aboutMe: AboutMe = {
+  name: "Samy Touddimte",
+  title: "Passionné par le développement web et logiciel, j'allie la rigueur mathématique à de solides bases techniques.",
+  institution: "UFR des sciences, UVSQ",
+  description: "",
+  email: "samtouddimte@gmail.com",
+  phone: "+33 698444997",
+  imageUrl: "",
+  githubUsername: "samy-touddimte",
+  linkedinUsername: "samytouddimte",
+  cvUrl: "/cv.pdf",
+  funDescription: "",
+  secretDescription: "Merci de votre visite. Si mon profil retient votre attention, n'hésitez pas à me contacter.",
+  altName: "ÉTUDIANT AU PROFIL SCIENTIFIQUE ET INFORMATIQUE",
+};
