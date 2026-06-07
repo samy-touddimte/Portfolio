@@ -31,9 +31,10 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
           </p>
         )}
         {experience.description && (
-          <p className="text-sm text-zinc-600 leading-relaxed mt-2">
-            {experience.description}
-          </p>
+          <p 
+            className="text-sm text-zinc-600 leading-relaxed mt-2"
+            dangerouslySetInnerHTML={{ __html: experience.description }}
+          />
         )}
       </div>
     </div>

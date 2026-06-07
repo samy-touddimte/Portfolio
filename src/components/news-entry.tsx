@@ -37,7 +37,10 @@ export function NewsEntry({ news, onOpenContactModal }: { news: News; onOpenCont
             news.title
           )}
         </h3>
-        <p className="text-sm text-zinc-600">{news.description}</p>
+        <p 
+          className="text-sm text-zinc-600"
+          dangerouslySetInnerHTML={{ __html: news.description }}
+        />
       </div>
     </div>
   );
