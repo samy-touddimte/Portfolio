@@ -13,7 +13,7 @@ export const experienceData: Experience[] = [
     date: "2023 - 2026",
     title: "Emplois étudiants — Service Client & Relation Commerciale",
     company: "H&M, IKEA, Auchan",
-    description: "Communication & Analyse des besoins : Écoute active et vulgarisation d'informations auprès des utilisateurs (notamment sur les dossiers de financement client chez IKEA). Réactivité & Gestion du stress : Prise de décision rapide, résolution de problèmes et maintien de la rigueur opérationnelle dans des environnements à très fort trafic. Esprit d'équipe : Coordination quotidienne avec les collaborateurs pour assurer la fluidité du service.",
+    description: "Communication & Analyse des besoins : Écoute active et vulgarisation d'informations auprès des utilisateurs (notamment sur les dossiers de financement client chez IKEA).<br /><br />Réactivité & Gestion du stress : Prise de décision rapide, résolution de problèmes et maintien de la rigueur opérationnelle dans des environnements à très fort trafic.<br /><br />Esprit d'équipe : Coordination quotidienne avec les collaborateurs pour assurer la fluidité du service.",
   },
   {
     date: "2023 (1 mois)",
