@@ -7,9 +7,9 @@ export interface News {
 
 export const newsData: News[] = [
   {
-    date: "2026",
-    title: "Intégration en BUT 3 Informatique",
-    description: "Je prépare actuellement mon admission en 3ème année de BUT Informatique (parcours Réalisation d'Applications) pour la rentrée de septembre 2026.",
+    date: "septembre 2026",
+    title: "rentrée en BUT 2 Informatique",
+    description: "Je prépare actuellement mon admission en 2ème année de BUT Informatique (parcours Réalisation d'Applications) pour la rentrée de septembre 2026, avec l'ambition de poursuivre vers un Master en Architecture Cloud & DevOps.",
   },
   {
     date: "2026",

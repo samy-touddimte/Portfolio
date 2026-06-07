@@ -9,6 +9,12 @@ export interface Education {
 
 export const educationData: Education[] = [
   {
+    year: "2026-2028",
+    institution: "UPEC — IUT de Créteil Vitry",
+    degree: "BUT Informatique - Parcours Réalisation d'Applications",
+    thesis: "",
+  },
+  {
     year: "2025—2026",
     institution: "UVSQ — Université Paris-Saclay à Versailles",
     degree: "Licence de Mathématiques",
