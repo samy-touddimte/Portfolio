@@ -77,7 +77,6 @@ export function ProfileSection({ aboutMe, onOpenContactModal }: ProfileSectionPr
         <p className="text-zinc-600 text-xs leading-relaxed tracking-wide uppercase mb-6">
           {aboutMe.title}
           <br />
-          <br />
           {aboutMe.institutionUrl ? (
             <a
               href={aboutMe.institutionUrl}
@@ -125,10 +124,14 @@ export function ProfileSection({ aboutMe, onOpenContactModal }: ProfileSectionPr
           {emailVisible ? (
             <button
               onClick={onOpenContactModal}
-              className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-900 transition-colors cursor-pointer text-left"
+              className="group inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-900 transition-colors cursor-pointer text-left"
             >
               <Mail size={14} />
               {renderProtectedEmail(aboutMe.email)}
+              <ArrowUpRight
+                size={12}
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+              />
             </button>
           ) : (
             <button

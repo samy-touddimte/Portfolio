@@ -20,16 +20,16 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Samy Touddimte",
-  title: "",
+  title: "Étudiant",
   institution: "IUT de Créteil Vitry, Université Paris-Est Créteil",
-  description: "Intégrant la 2ème année de B.U.T. Informatique, mon parcours technique a débuté par un cycle préparatoire ingénieur et une L2 Mathématiques. Ce bagage m'a transmis un esprit d'analyse strict et une méthode pour aborder les problèmes complexes, que ce soit pour structurer une base de données, sécuriser une application ou concevoir un algorithme. Mon objectif aujourd'hui est d'intégrer une équipe technique (Logiciel, Data ou Infrastructure) pour confronter ces bases théoriques aux exigences industrielles. Sur le plan humain, mes expériences passées en service client (IKEA, Auchan) m'ont inculqué des règles simples mais indispensables : la fiabilité, le respect des procédures et la capacité à garder la tête froide face aux imprévus.",
+  description: "À la rentrée de septembre, j'intègre la 2ème année de B.U.T. Informatique avec l'ambition de poursuivre jusqu'au Master.<br />Je recherche une alternance de 24 mois au sein d'une entreprise prête à m'accompagner tout au long de mes études.<br />En parallèle, mes trois années de service client garantissent mon adaptabilité, mon esprit d'équipe et ma rigueur d'exécution.",
   email: "samtouddimte@gmail.com",
   phone: "+33 698444997",
   imageUrl: "",
   githubUsername: "samy-touddimte",
   linkedinUsername: "samytouddimte",
-  cvUrl: "https://drive.google.com/file/d/1a0Hnu935-7RrKNDZE37o2-GlI9p3GdEB/preview",
+  cvUrl: "https://drive.google.com/file/d/1dkP9VpeHePme95PQQtIRHN1keUyUruP_/preview",
   funDescription: "",
   secretDescription: "Merci de votre visite. Si mon profil retient votre attention, n'hésitez pas à me contacter.",
-  altName: "ÉTUDIANT - INFORMATIQUE & INGÉNIERIE",
+  altName: "",
 };
